@@ -1,0 +1,43 @@
+{
+  "name": "restaurent_driver",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.3",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/drawer": "5.x",
+    "@react-navigation/native": "5.x",
+    "axios": "^0.27.2",
+    "react": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-awesome-loading": "^1.0.15",
+    "react-native-fast-image": "^8.5.11",
+    "react-native-gesture-handler": "^2.4.2",
+    "react-native-paper": "^4.12.1",
+    "react-native-reanimated": "2.2.4",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.13.1",
+    "react-native-toast-message": "^2.1.5",
+    "react-native-vector-icons": "^9.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/runtime": "^7.17.9",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^28.0.3",
+    "eslint": "^8.14.0",
+    "jest": "^28.0.3",
+    "metro-react-native-babel-preset": "^0.70.3",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
